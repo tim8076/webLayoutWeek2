@@ -1,0 +1,127 @@
+.header{
+  height: 958px;
+  background-image: url('../../images/header-bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-light;
+  &__container{
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title{
+    .small {
+        display: block;
+        font-size: $font-lg;
+        line-height: 32px;
+    }
+    .big{
+        font-size: 80px;
+        font-weight: $fw-black;
+        line-height: 106px;
+    }
+  }
+  &__text{
+    font-size: $font-lg;
+  }
+  &__links{
+    display: flex;
+  }
+  &__link{
+    & + &{
+        margin-left: 16px;
+    }
+  }
+  &__image{
+    width: 60px;
+    height: 60px;
+  }
+}
+.about{
+    padding: 56px 0;
+    text-align: center;
+    &__hr{
+        width: 384px;
+        margin: 0 auto;
+        margin-bottom: 28px;
+    }
+    &__container{
+        width: 412px;
+        margin: 0 auto;
+        font-size: $font-lg;
+    }
+    &__image{
+       width: 384px;
+       height: 384px;
+       margin-bottom: 20px;
+    }
+    &__text{
+       &:first-of-type{
+           margin-bottom: 4px;
+       }
+    }
+    &__item{
+       margin-bottom: 28px;
+       position: relative;
+       &::before{
+           content: "";
+           display: inline-block;
+           margin-right: 16px;
+           width: 22px;
+           height: 22px;
+           border-radius: 50%;
+           background-color: $color-primary;
+       }
+    }
+}
+.brand{
+    padding-top: 56px;
+    padding-bottom: 160px;
+    color: $color-light;
+    text-align: center;
+    .sub-title{
+        margin-bottom: 12px;
+    }
+    &__text{
+       &:nth-of-type(2){
+           margin-bottom: 68px;
+       }
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item{
+       text-align: center;
+       &:first-child{
+           width: 100%;
+       }
+    }
+}
+.work{
+   padding-top: 56px;
+   padding-bottom: 144px;
+   text-align: center;
+   &__list{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   }
+   &__list{
+       font-size: $font-med;
+   }
+}
+.footer{
+    padding: 64px 0;
+    text-align: center;
+    color: $color-light;
+    &__contact{
+        font-size: $font-lg;
+    }
+    &__link{
+       color: $color-light;
+    }
+}

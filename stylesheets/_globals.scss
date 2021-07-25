@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+body{
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.5;
+   font-size: $font-base;
+   font-weight: $fw-med;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sub-title{
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+}
+
+//helpers
+.bg-cover{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fw-med{
+    font-weight: $fw-med;
+}
+.fw-bold{
+    font-weight: $fw-bold;
+}
+.fw-black{
+    font-weight: $fw-black;
+}
+.fz-med{
+    font-size: $font-med;
+}
+.fz-lg{
+    font-size: $font-lg;
+}
+.bg-dark{
+    background-color: $color-dark;
+}
+.lh-sm{
+    line-height: 1.33333;
+}

@@ -1,0 +1,8 @@
+
+//spacers 以8px為單位
+
+@for $level from 1 to 13 {
+  .mb-#{$level} {
+    margin-bottom: $level*8px;
+  }
+}
