@@ -123,5 +123,8 @@
     }
     &__link{
        color: $color-light;
+       &:hover{
+           color: $color-primary;
+       }
     }
 }

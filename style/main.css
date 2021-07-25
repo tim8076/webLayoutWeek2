@@ -339,4 +339,8 @@ a {
 .footer__link {
   color: #fff;
 }
+
+.footer__link:hover {
+  color: #891818;
+}
 /*# sourceMappingURL=main.css.map */
